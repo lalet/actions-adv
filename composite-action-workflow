@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: lalet/action_adv@main
+      - uses: lalet/composite_action@main
         with:
           PYTHON_VERSION: 3.8
