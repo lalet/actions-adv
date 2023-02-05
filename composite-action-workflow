@@ -1,0 +1,11 @@
+name: Use Composite Action
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lalet/action_adv@main
+        with:
+          PYTHON_VERSION: 3.8
